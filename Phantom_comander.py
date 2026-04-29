@@ -274,5 +274,4 @@ if __name__ == "__main__":
     if os.geteuid() != 0:
         print("CRITICAL: Root required. Run with sudo.")
         sys.exit(1)
-    main()
-وهذا
+    main()   
